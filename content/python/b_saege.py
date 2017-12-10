@@ -7,28 +7,28 @@ import matplotlib.pyplot as plt
 import scipy.constants as const
 import math
 
-U, v = np.genfromtxt('../../content/values/b_rechteck.txt',unpack=True)
+U, v = np.genfromtxt('../../content/values/b_saege.txt',unpack=True)
 U0 = 800/2
-v0 = 71420
+v0 = 69440
 
 # koeffizienten
-k1 = (U0*4)/(const.pi* 1)
+k1 = (U0*2)/(const.pi* 1)
 print( "koeff 1", k1)
-k3 = (U0*4)/(const.pi* 3)
+k3 = (U0*2)/(const.pi* 2)
 print( "koeff 2", k3)
-k5 = (U0*4)/(const.pi* 5)
+k5 = (U0*2)/(const.pi* 3)
 print( "koeff 3", k5)
-k7 = (U0*4)/(const.pi* 7)
+k7 = (U0*2)/(const.pi* 4)
 print( "koeff 4", k7)
-k9 = (U0*4)/(const.pi* 9)
+k9 = (U0*2)/(const.pi* 5)
 print( "koeff 5", k9)
-k11 = (U0*4)/(const.pi* 11)
+k11 = (U0*2)/(const.pi* 6)
 print( "koeff 6", k11)
-k13 = (U0*4)/(const.pi* 13)
+k13 = (U0*2)/(const.pi* 7)
 print( "koeff 7", k13)
-k15 = (U0*4)/(const.pi* 15)
+k15 = (U0*2)/(const.pi* 8)
 print( "koeff 8", k15)
-k17 = (U0*4)/(const.pi* 17)
+k17 = (U0*2)/(const.pi* 9)
 print( "koeff 9", k17)
 
 #abweichung
