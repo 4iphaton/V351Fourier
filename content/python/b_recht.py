@@ -12,4 +12,4 @@ k = 0
 for x in U:
     k = 4/(const.pi*(x + 1))
     print(k)
-    print((k-U)/k)
+    print((k-U[x])/k)
