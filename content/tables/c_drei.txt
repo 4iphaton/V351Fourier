@@ -1,0 +1,7 @@
+# deltaU Oberschwingung
+# V      1
+90    1
+10    3
+ 3.6  5
+ 1.84 7
+ 1.11 9
